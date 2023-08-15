@@ -37,7 +37,7 @@ if __name__ == "__main__":
     
 #Bu örnekte, kodunuz read_signal_strength adında bir işlev ile sinyal gücü bilgisini 
 #okumak için ayrılmıştır. Ana mantık ise main adlı bir işlev içine taşınmıştır.
-#Bu sayede kodunuzu daha anlaşılır ve tekrar kullanılabilir hale getirmiş oldunuz.
+#Bu sayede kodumuzu daha anlaşılır ve tekrar kullanılabilir hale getirmiş olduk.
 
 
 
