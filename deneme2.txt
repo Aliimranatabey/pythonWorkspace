@@ -1,0 +1,18 @@
+
+Profiles on interface Wi-Fi:
+
+Group policy profiles (read only)
+---------------------------------
+    <None>
+
+User profiles
+-------------
+    All User Profile     : Mi Note 10 Lite
+    All User Profile     : TT_C15
+    All User Profile     : TT_C20
+    All User Profile     : A_ARC_ibrahim
+    All User Profile     : ZTE_TEST_5GHZ
+    All User Profile     : Faruk_TT_HGW11
+    All User Profile     : ibrahim
+    All User Profile     : FiberHGW_ZT622A_2.4GHz
+

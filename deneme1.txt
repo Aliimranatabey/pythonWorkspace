@@ -1,0 +1,23 @@
+
+There is 1 interface on the system: 
+
+    Name                   : Wi-Fi
+    Description            : Intel(R) Wi-Fi 6 AX201 160MHz
+    GUID                   : c97928cb-1a41-4d89-be5b-af0b903f08a4
+    Physical address       : 40:ec:99:6e:ed:8a
+    State                  : connected
+    SSID                   : Mi Note 10 Lite
+    BSSID                  : f2:ce:25:44:37:61
+    Network type           : Infrastructure
+    Radio type             : 802.11n
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Auto Connect
+    Channel                : 11
+    Receive rate (Mbps)    : 72.2
+    Transmit rate (Mbps)   : 72.2
+    Signal                 : 99% 
+    Profile                : Mi Note 10 Lite 
+
+    Hosted network status  : Not available
+
