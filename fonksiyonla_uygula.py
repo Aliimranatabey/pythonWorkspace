@@ -1,4 +1,8 @@
+# %% module block
 import os
+import time
+
+# %% function block
 def run_command():
     komut="netsh wlan show interfaces"
     sonuc=os.popen(komut).read()
@@ -15,7 +19,9 @@ def write_file_60_second(sonuc,file_name,file_name2,line_write,read,find_keyword
             if find_keyword in line:
                 for i in range(60):
                     with open(file_name2,line_write) as file2:
-                        file2.write(f"{i+1}. Saniyede {line} \n")
+                        time.sleep(1)
+                        file2.write(f"{time.asctime()} - {line}")
+                        print(time.asctime()+"-"+line)
 
 def write_file_input_second(sonuc,file_name,file_name3,line_write,read,find_keyword,sure):
     with open(file_name,read) as file:
@@ -24,11 +30,14 @@ def write_file_input_second(sonuc,file_name,file_name3,line_write,read,find_keyw
             if find_keyword in line:
                 for i in range(sure):
                     with open(file_name3,line_write) as file2:
-                        file2.write(f"{i+1}. Saniyede {line} \n")
-                        
-file_name="deneme2.txt"
-file_name2="signal3.txt"
-file_name3="signal4.txt"
+                        time.sleep(1)
+                        file2.write(f"{time.asctime()} - {line}")
+                        print(time.asctime()+"-"+line)
+  
+# %% main block
+file_name="testFonksiyon.txt"
+file_name2="fonksiyonIleUygulaSIGNAL.txt"
+file_name3="fonksiyonIleUygulaSIGNAL2.txt"
 write="w"
 read="r"
 line_write="a"
@@ -37,4 +46,4 @@ sure=int(input("Kac saniye boyunca dosyaya yazmak istediginizi giriniz : "))
 
 write_file(run_command(), file_name, write)
 write_file_60_second(run_command(),file_name,file_name2,line_write,read,find_keyword)
-write_file_input_second(run_command(), file_name, file_name3, line_write,read, find_keyword, sure)
+# write_file_input_second(run_command(), file_name, file_name3, line_write,read, find_keyword, sure)

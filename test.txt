@@ -13,9 +13,9 @@ There is 1 interface on the system:
     Authentication         : WPA2-Personal
     Cipher                 : CCMP
     Connection mode        : Auto Connect
-    Channel                : 10
-    Receive rate (Mbps)    : 117
-    Transmit rate (Mbps)   : 104
+    Channel                : 2
+    Receive rate (Mbps)    : 130
+    Transmit rate (Mbps)   : 144.4
     Signal                 : 90% 
     Profile                : TT_C15 
 
