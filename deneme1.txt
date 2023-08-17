@@ -6,18 +6,18 @@ There is 1 interface on the system:
     GUID                   : c97928cb-1a41-4d89-be5b-af0b903f08a4
     Physical address       : 40:ec:99:6e:ed:8a
     State                  : connected
-    SSID                   : Mi Note 10 Lite
-    BSSID                  : f2:ce:25:44:37:61
+    SSID                   : TT_C15
+    BSSID                  : 8c:59:73:cd:c2:42
     Network type           : Infrastructure
     Radio type             : 802.11n
     Authentication         : WPA2-Personal
     Cipher                 : CCMP
     Connection mode        : Auto Connect
-    Channel                : 11
-    Receive rate (Mbps)    : 72.2
-    Transmit rate (Mbps)   : 72.2
-    Signal                 : 99% 
-    Profile                : Mi Note 10 Lite 
+    Channel                : 10
+    Receive rate (Mbps)    : 130
+    Transmit rate (Mbps)   : 104
+    Signal                 : 90% 
+    Profile                : TT_C15 
 
     Hosted network status  : Not available
 

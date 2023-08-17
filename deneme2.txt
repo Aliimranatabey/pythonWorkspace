@@ -1,18 +1,23 @@
 
-Profiles on interface Wi-Fi:
+There is 1 interface on the system: 
 
-Group policy profiles (read only)
----------------------------------
-    <None>
+    Name                   : Wi-Fi
+    Description            : Intel(R) Wi-Fi 6 AX201 160MHz
+    GUID                   : c97928cb-1a41-4d89-be5b-af0b903f08a4
+    Physical address       : 40:ec:99:6e:ed:8a
+    State                  : connected
+    SSID                   : TT_C15
+    BSSID                  : 8c:59:73:cd:c2:42
+    Network type           : Infrastructure
+    Radio type             : 802.11n
+    Authentication         : WPA2-Personal
+    Cipher                 : CCMP
+    Connection mode        : Auto Connect
+    Channel                : 10
+    Receive rate (Mbps)    : 117
+    Transmit rate (Mbps)   : 104
+    Signal                 : 90% 
+    Profile                : TT_C15 
 
-User profiles
--------------
-    All User Profile     : Mi Note 10 Lite
-    All User Profile     : TT_C15
-    All User Profile     : TT_C20
-    All User Profile     : A_ARC_ibrahim
-    All User Profile     : ZTE_TEST_5GHZ
-    All User Profile     : Faruk_TT_HGW11
-    All User Profile     : ibrahim
-    All User Profile     : FiberHGW_ZT622A_2.4GHz
+    Hosted network status  : Not available
 
