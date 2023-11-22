@@ -14,9 +14,9 @@ There is 1 interface on the system:
     Cipher                 : CCMP
     Connection mode        : Auto Connect
     Channel                : 2
-    Receive rate (Mbps)    : 39
-    Transmit rate (Mbps)   : 65
-    Signal                 : 90% 
+    Receive rate (Mbps)    : 144.4
+    Transmit rate (Mbps)   : 144.4
+    Signal                 : 88% 
     Profile                : TT_C15 
 
     Hosted network status  : Not available
